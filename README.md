@@ -55,6 +55,4 @@ Press Enter to start playback; press `Ctrl+C` to stop early.
 - Lyric timing sync relies on `pygame.mixer.music.get_pos()`, which measures elapsed playback time and isn't frame-accurate; drift can occur on longer tracks.
 - Both players call `lyrics.sort(key=lambda x: x[0])` at startup, so entries don't need to be in timestamp order beforehand.
 
-## License
-
-Add a license of your choice here (e.g. MIT) before making the repo public. Note this covers the code only — you're responsible for the rights to any audio/lyrics you use with it.
+## THANK YOU...
